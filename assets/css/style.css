@@ -1,16 +1,18 @@
-/* Aggiungi questi stili per il layout delle card */
+body {
+    background-color: #1f2532;
+
+}
+
 .dischi {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* Spazio uniforme tra le colonne */
+
 }
 
 .card {
     width: calc(33.33% - 20px);
-    /* Larghezza della card, con margine tra le card */
     margin-bottom: 20px;
-    /* Margine inferiore tra le righe */
     padding: 10px;
     box-sizing: border-box;
     background-color: #f9f9f9;
